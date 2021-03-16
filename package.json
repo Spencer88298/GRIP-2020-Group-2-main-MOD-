@@ -1,0 +1,32 @@
+{
+  "name": "cbaas-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "",
+    "lint": "eslint --fix .",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamGowland/GRIP-2020-Group-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamGowland/GRIP-2020-Group-2/issues"
+  },
+  "homepage": "https://github.com/SamGowland/GRIP-2020-Group-2#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "^2.2.1"
+  }
+}
